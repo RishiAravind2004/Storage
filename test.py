@@ -17,21 +17,18 @@ def Greetings_Page():
                             "Where Empathy Meets Innovation 💛",
                             italic=True,
                             text_align=ft.TextAlign.CENTER,
-                            theme_style="bodySmall",
                         ),
                         ft.Divider(height=20, color=ft.Colors.TRANSPARENT),
 
                         # Greeting Message
                         ft.Text(
                             "BumbleBeeZ is more than just an app — it's a movement.",
-                            theme_style="titleMedium",
                             text_align=ft.TextAlign.CENTER,
                         ),
                         ft.Text(
                             "We’re here to empower people with disabilities, the elderly, and orphans by providing "
                             "accessible tools, personalized support, and a community that cares. "
                             "Just like the bumblebee, we believe in achieving the impossible — together. 🐝✨",
-                            theme_style="bodyMedium",
                             text_align=ft.TextAlign.CENTER,
                         ),
                         
