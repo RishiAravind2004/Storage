@@ -11,7 +11,6 @@ def Greetings_Page():
                         # Greeting Title
                         ft.Text(
                             "Welcome to BumbleBeeZ🐝",
-                            theme_style="titleLarge",
                             text_align=ft.TextAlign.CENTER,
                         ),
                         ft.Text(
