@@ -1,12 +1,9 @@
 import flet as ft
 from flet import margin
-import config
-from pages.navbar import Get_Drawer
 
 def Greetings_Page():
     return ft.View(
         route="/greetings",
-        drawer=Get_Drawer(),
         controls=[
             ft.Container(
                 content=ft.Column(
