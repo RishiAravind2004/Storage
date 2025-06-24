@@ -1,5 +1,7 @@
 dependencies:
   cupertino_icons: ^1.0.6
+  flet_geolocator:
+    path: /workspaces/Storage/build/flutter-packages/flet_geolocator
   flutter:
     sdk: flutter
   package_info_plus: ^8.0.2
