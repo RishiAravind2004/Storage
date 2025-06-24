@@ -11,7 +11,7 @@ def view(page: ft.Page):
     last_known_text = ft.Text("🕘 Last Known Position: --")
     status_text = ft.Text("🔍 Permission Status: --")
     gps_status_text = ft.Text("📶 GPS Enabled: --")
-    error_text = ft.Text("", color=ft.colors.RED)
+    error_text = ft.Text("", color=ft.Colors.RED)
 
     def on_position_change(e):
         position_text.value = f"📍 New Position: {e.latitude}, {e.longitude}"
