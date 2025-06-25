@@ -42,6 +42,9 @@ dev-dependencies = [
     "flet-geolocator==0.1.0",
 ]
 
+[tool.flet.android]
+target_sdk_version = 35
+
 [tool.poetry]
 package-mode = false
 

@@ -55,13 +55,13 @@ android {
     defaultConfig {        
         applicationId "com.mycompany.storage"
         minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
+        targetSdkVersion 35
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
 
         println("Gradle build config:")
         println("  minSdkVersion: $flutter.minSdkVersion")
-        println("  targetSdkVersion: $flutter.targetSdkVersion")
+        println("  targetSdkVersion: 35")
         println("  versionCode: $flutter.versionCode")
         println("  versionName: $flutter.versionName")
 
